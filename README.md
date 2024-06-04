@@ -8,14 +8,19 @@ This arduino project creates a simple tilt game using the Adafruit Circuit Playg
 ## Specifications
 
 Board: Adafruit Circuit Playground Express
+
 Programming Language: C++ (Arduino)
+
 IDE: Arduino IDE
+
 Dependencies: Adafruit Circuit Playground library, AsyncDelay
 
 ## Prerequisites
 
 Arduino IDE installed on your computer. 
+
 Adafruit Circuit Playground Express board.
+
 USB cable to connect the Circuit Playground Express board to your computer.
 
 
