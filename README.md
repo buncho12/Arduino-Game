@@ -1,10 +1,22 @@
-# Arduino-Game
+## Arduino Tilt Game
 Game code for ENGR 103 final project
 
-# What does this do?
+# Description
 
-This project is a tilt game that senses how much the Arduino CPX board has been tilted using the acceleration sensors, and lights up a NeoPixel corresponding to that value.
-Your job is to tilt the board so that this red light lines up with an arbitrarily selected green light.
-Press the right button at the correct time to win. If you press the right button and the two lights are not lined up, you fail, and start from the beginning.
+This arduino project creates a simple tilt game using the Adafruit Circuit Playground Express board. The built in accelerometer detects the tilt of the board, and a corresponding red NeoPixel light to indicate the direction of the tilt. Additionally, another green light is randomly displayed on the board. Your job is to line up the red light to the green light, and press the right button to win-- press it at the wrong time, and the game restarts.
+
+# Specifications
+
+Board: Adafruit Circuit Playground Express
+Programming Language: C++ (Arduino)
+IDE: Arduino IDE
+Dependencies: Adafruit Circuit Playground library, AsyncDelay
+
+# Prerequisites
+
+Arduino IDE installed on your computer. 
+Adafruit Circuit Playground Express board.
+USB cable to connect the Circuit Playground Express to your computer.
+
 
 
